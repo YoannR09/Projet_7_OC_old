@@ -8,7 +8,7 @@ import javax.inject.Named;
 import java.util.List;
 
 @Named
-public class StockDaoImpl extends AbstractManagerImpl implements StockManager {
+public class StockManagerImpl extends AbstractManagerImpl implements StockManager {
 
     @Override
     public Stock getStock(Integer pId) {

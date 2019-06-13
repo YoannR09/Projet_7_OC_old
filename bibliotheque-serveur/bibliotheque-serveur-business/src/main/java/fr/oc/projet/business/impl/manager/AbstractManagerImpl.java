@@ -2,7 +2,7 @@ package fr.oc.projet.business.impl.manager;
 
 import fr.oc.projet.consumer.contract.DAOFactory;
 
-public class AbstractManagerImpl {
+public abstract class AbstractManagerImpl {
 
     private static DAOFactory daoFactory;
 

@@ -4,10 +4,10 @@ import javax.inject.Inject;
 import javax.inject.Named;
 import javax.sql.DataSource;
 
-public class AbstractDaoImpl {
+public abstract class AbstractDaoImpl {
 
     @Inject
-    @Named("dataSourceTicket")
+    @Named("dataSource")
     private DataSource dataSource;
 
 

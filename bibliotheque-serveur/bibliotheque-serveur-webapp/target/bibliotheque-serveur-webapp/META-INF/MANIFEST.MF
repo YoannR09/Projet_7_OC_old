@@ -1,5 +1,9 @@
 Manifest-Version: 1.0
 Built-By: El-ra
 Created-By: IntelliJ IDEA
+<<<<<<< HEAD
 Build-Jdk: 1.8.0_211
+=======
+Build-Jdk: 1.8
+>>>>>>> e5c1030b6af2a8b7981678a1d11d5324a2cf603d
 

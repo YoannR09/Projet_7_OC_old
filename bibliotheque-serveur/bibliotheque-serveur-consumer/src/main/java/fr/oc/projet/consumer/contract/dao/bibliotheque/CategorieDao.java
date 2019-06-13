@@ -8,5 +8,7 @@ public interface CategorieDao {
 
     Categorie getCategorie(Integer pId);
 
+    List<Categorie> getListCategorieLivre(Integer livreId);
+
     List<Categorie> getListCategorie();
 }

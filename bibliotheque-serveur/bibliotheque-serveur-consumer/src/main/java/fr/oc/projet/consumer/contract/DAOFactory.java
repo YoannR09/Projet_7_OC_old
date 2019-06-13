@@ -11,7 +11,7 @@ public interface DAOFactory {
 
     CompteDao getCompteDao();
 
-    BibliothequeDao getBibliotheque();
+    BibliothequeDao getBibliothequeDao();
 
     CategorieDao getCategorieDao();
 

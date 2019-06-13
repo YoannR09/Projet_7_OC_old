@@ -3,7 +3,6 @@ package fr.oc.projet.consumer.impl.dao.bibliotheque;
 import fr.oc.projet.consumer.contract.dao.bibliotheque.CategorieDao;
 import fr.oc.projet.consumer.impl.dao.AbstractDaoImpl;
 import fr.oc.projet.consumer.rowmapper.bibliotheque.CategorieRM;
-import fr.oc.projet.model.beans.bibliotheque.Bibliotheque;
 import fr.oc.projet.model.beans.bibliotheque.Categorie;
 import org.springframework.jdbc.core.JdbcTemplate;
 
@@ -23,6 +22,15 @@ public class CategorieDaoImpl extends AbstractDaoImpl implements CategorieDao {
         JdbcTemplate vJdbcTemplate = new JdbcTemplate(getDataSource());
         Categorie categorie = vJdbcTemplate.queryForObject(vSQL,categorieRM);
         return categorie;
+    }
+
+    @Override
+    public List<Categorie> getListCategorieLivre(Integer livreId) {
+        String vSQL = "SELECT * FROM categorie " +
+                " WHERE id";
+        JdbcTemplate vJdbcTemplate = new JdbcTemplate(getDataSource());
+        List<Categorie> vList = vJdbcTemplate.query(vSQL,categorieRM);
+        return vList;
     }
 
     @Override

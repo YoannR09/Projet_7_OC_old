@@ -30,7 +30,6 @@ public class DAOFactoryImpl implements DAOFactory {
     private StockDao stockDao;
 
 
-
     @Override
     public NiveauAccesDao getNiveauAccesDao() {
         return this.niveauAccesDao;
@@ -42,8 +41,8 @@ public class DAOFactoryImpl implements DAOFactory {
     }
 
     @Override
-    public BibliothequeDao getBibliotheque() {
-        return bibliothequeDao;
+    public BibliothequeDao getBibliothequeDao() {
+        return this.bibliothequeDao;
     }
 
     @Override
