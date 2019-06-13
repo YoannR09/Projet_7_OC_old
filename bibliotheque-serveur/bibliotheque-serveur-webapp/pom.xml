@@ -26,6 +26,12 @@
     </dependency>
 
 
+    <dependency>
+      <groupId>fr.oc.projet</groupId>
+      <artifactId>bibliotheque-serveur-technical</artifactId>
+    </dependency>
+
+
     <!-- ===== Bibliothèques tierces ===== -->
 
     <dependency>

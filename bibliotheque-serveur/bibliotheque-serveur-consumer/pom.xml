@@ -22,6 +22,12 @@
       <artifactId>bibliotheque-serveur-model</artifactId>
     </dependency>
 
+
+    <dependency>
+      <groupId>fr.oc.projet</groupId>
+      <artifactId>bibliotheque-serveur-technical</artifactId>
+    </dependency>
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -31,11 +37,7 @@
       <groupId>org.springframework</groupId>
       <artifactId>spring-jdbc</artifactId>
     </dependency>
-    <dependency>
-      <groupId>javax.inject</groupId>
-      <artifactId>javax.inject</artifactId>
-      <version>1</version>
-    </dependency>
+
 
   </dependencies>
 </project>

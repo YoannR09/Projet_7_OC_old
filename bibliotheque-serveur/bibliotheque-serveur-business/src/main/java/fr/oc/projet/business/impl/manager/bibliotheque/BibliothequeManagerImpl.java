@@ -13,11 +13,11 @@ public class BibliothequeManagerImpl extends AbstractManagerImpl implements Bibl
 
     @Override
     public Bibliotheque getBibliotheque(Integer pId) {
-        return getDaoFactory().getBibliotheque().getBibliotheque(pId);
+        return getDaoFactory().getBibliothequeDao().getBibliotheque(pId);
     }
 
     @Override
     public List<Bibliotheque> getListBibliotheque() {
-        return getDaoFactory().getBibliotheque().getListBibliotheque();
+        return getDaoFactory().getBibliothequeDao().getListBibliotheque();
     }
 }
